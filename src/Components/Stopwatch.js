@@ -6,16 +6,29 @@
 // onClick start timer, stop timer and Rest timer are used with this.state in return 
 
 
-
-
-
-
-
 import React from 'react';
+
 class Stopwatch extends React.Component {
+  
+
+render () {
+    return (
+        <div className ="Stopwatch"> 
+            <div className="Stopwatch-header">Stopwatch</div>
+            <div className="Stopwatch-display">
+
+
+
+            
+            </div>
+        </div>
+    );
+}
     
 
 }
+
+
 
 
 
