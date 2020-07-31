@@ -5,8 +5,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <div className="Time">Time Demo</div>
-      <div ClassName="stopwatch"></div>
+      <div className="Time"></div>
+    
       <Stopwatch/>
       
     </div>

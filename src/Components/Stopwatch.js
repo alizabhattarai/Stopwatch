@@ -49,14 +49,22 @@ render () {
     let hours = ("0" + Math.floor(timerTime / 3600000)).slice(-2);
 
     return (
-        <div className ="Stopwatch"> 
-            <div className="Stopwatch-header">Stopwatch</div>
-            <div className="Stopwatch-display">
-                
-
-
-
-            
+        <div className ="stopwatch"><br/>
+            <div className="Stopwatch-header">STOPWATCH</div> <br/>
+            <div className="Stopwatch-display"> <br/>
+            {hours} : {minutes} : {seconds} : {miliseconds}
+                    {this.state.timerOn === false && this.state.timerTime === 0 && (
+                        <button onClick={this.startTimer}>Start</button>
+                    )}
+                    {this.state.timerOn === true && (
+                        <button onClick={this.stopTimer}>Stop</button>
+                    )}
+                    {this.state.timerOn === false && this.state.timerTime > 0 && (
+                        <button onClick={this.startTimer}>Resume</button>
+                    )}
+                    {this.state.timerOn === false && this.state.timerTime > 0 && (
+                        <button onClick={this.resetTimer}>Reset</button>
+                    )}
             </div>
         </div>
     );
@@ -65,21 +73,23 @@ render () {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export default Stopwatch;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

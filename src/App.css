@@ -1,3 +1,17 @@
 body {
   background-color: lightgray;
+  align-items: center;
+}
+
+
+.Stopwatch-header {
+  font-size: x-large;
+  align-items: center;
+  color: blue;
+  padding-left: 500px;
+
+}
+
+.Stopwatch-display{
+  padding-left: 500px;
 }
