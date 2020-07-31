@@ -5,6 +5,9 @@
 // math.floor method is used to calulate the with miliseconds, seconds, minuts and hours
 // onClick start timer, stop timer and Rest timer are used with this.state in return 
 
+//reference used for this exercise are : "https://medium.com/@staceyzander/setinterval-and-clearinterval-in-react-b1d0ee1e1a6a", "https://codersera.com/blog/first-react-native-app-stopwatch/"
+
+
 
 import React from 'react';
 
