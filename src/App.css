@@ -1,6 +1,7 @@
 body {
   background-color: lightgray;
   align-items: center;
+
 }
 
 
@@ -8,10 +9,20 @@ body {
   font-size: x-large;
   align-items: center;
   color: blue;
-  padding-left: 500px;
+  padding-left: 600px;
+  
 
 }
 
 .Stopwatch-display{
-  padding-left: 500px;
+  padding-left: 600px;
+  border: solid blue;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  padding-right: 50px;
+ 
+}
+
+#start {
+  font-size: 50px;
 }
