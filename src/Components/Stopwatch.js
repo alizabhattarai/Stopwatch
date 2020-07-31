@@ -9,6 +9,11 @@
 import React from 'react';
 
 class Stopwatch extends React.Component {
+    state = {
+        timerOn: false,
+        timerStart: 0,
+        timerTime:0
+    }
   
 
 render () {
